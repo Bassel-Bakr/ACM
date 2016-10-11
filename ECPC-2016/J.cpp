@@ -7,7 +7,7 @@ typedef pair<int,int> edge;
 int const N = 500 * 1000 + 8;
 
 template<class t>
-int u_bound(t const& a, int l, int r, int x) {
+int u_bound(t const& a, int l, int r, long long x) {
   int idx = -1;
   while(l < r) {
     int m = (l+r)/2;
